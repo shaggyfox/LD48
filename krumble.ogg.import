@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/krumble.ogg-90411f070bb0bd10a73b454c90c0b204.oggstr"
+
+[deps]
+
+source_file="res://krumble.ogg"
+dest_files=[ "res://.import/krumble.ogg-90411f070bb0bd10a73b454c90c0b204.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
