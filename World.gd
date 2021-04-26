@@ -72,6 +72,9 @@ func _process(delta):
 func _on_Timer_timeout():
 	var array = []
 	lava_level = 0
+	for x in range(20):
+		if $TileMap.get_cell(x, 0) == -1:
+			$TileMap.set_cell(x, 0, 1)
 	for yy in range(13):
 		for x in range(20):
 			var y = 12 - yy

@@ -21,11 +21,11 @@ region_rect = Rect2( 0, 0, 640, 360 )
 texture = ExtResource( 4 )
 region_rect = Rect2( 0, 64, 96, 32 )
 
-[sub_resource type="StyleBoxTexture" id=6]
+[sub_resource type="StyleBoxTexture" id=5]
 texture = ExtResource( 4 )
 region_rect = Rect2( 0, 96, 96, 32 )
 
-[sub_resource type="StyleBoxTexture" id=5]
+[sub_resource type="StyleBoxTexture" id=6]
 texture = ExtResource( 4 )
 region_rect = Rect2( 0, 32, 96, 32 )
 
@@ -53,8 +53,8 @@ margin_top = 281.866
 margin_right = 437.784
 margin_bottom = 305.866
 custom_styles/hover = SubResource( 4 )
-custom_styles/pressed = SubResource( 6 )
-custom_styles/normal = SubResource( 5 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
 custom_fonts/font = ExtResource( 6 )
 custom_colors/font_color = Color( 0.0980392, 0.0666667, 0.376471, 1 )
 text = "Start"
@@ -68,8 +68,8 @@ margin_top = 310.766
 margin_right = 438.728
 margin_bottom = 334.766
 custom_styles/hover = SubResource( 4 )
-custom_styles/pressed = SubResource( 6 )
-custom_styles/normal = SubResource( 5 )
+custom_styles/pressed = SubResource( 5 )
+custom_styles/normal = SubResource( 6 )
 custom_fonts/font = ExtResource( 6 )
 custom_colors/font_color = Color( 0.0980392, 0.0666667, 0.376471, 1 )
 text = "Quit"
